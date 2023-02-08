@@ -222,3 +222,143 @@ footer p{
 .absolut span:hover{
     border-bottom: 1px solid white;
 }
+
+@media screen and (max-width: 768px) {
+
+    .bgimg1 p:nth-child(3) {
+        font-size: 20px;
+        width: 700px;
+        margin: auto;
+        text-align: center;
+    }
+    .contact-text2 {
+        font-size: 18px;
+    }
+    .img-card {
+        height: 90px !important;
+        margin: 20px;
+        transform: translateY(-100px);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1400px)  {
+
+    .bgimg3-text {
+        width: 90%;
+    }
+    .bgimg2 p:nth-child(3) {
+        width: 90%;
+    }
+    .contact .dash {
+        font-size: 20px;
+    }
+    .logo2 {
+        top: 100px;
+    }
+    .bgimg2 p:nth-child(2) {
+        top: 100px;
+    }
+    .bgimg2 p:nth-child(3) {
+        top: 100px;
+    }
+    .bgimg2 {
+        height: 105vh;
+    }
+    .cards {
+        top: 206px;
+    }
+
+}
+
+
+@media screen and (max-width: 350px) {
+.bgimg1 p:nth-child(2) {
+    font-size: 30px;
+    width: 305px;
+}
+.bgimg1 p:nth-child(3) {
+    width: 305px;
+}
+.stick span {
+    left: 45%;
+    top: 85%;
+}
+.logo2 {
+    top: 20px;
+}
+.bgimg2 p:nth-child(2) {
+    font-size: 30px;
+    width: 305px;
+    top: 20px;
+}
+.bgimg2 p:nth-child(3) {
+    font-size: 15px;
+    width: 305px;
+    top: 20px;
+}
+.bgimg2 {
+    height: 96vh;
+    z-index: 2;
+}
+.cards {
+    top: 240px;
+    flex-direction: column;
+    align-items: center;
+}
+.bgimg3 p:first-child {
+    font-size: 30px;
+    width: 304px;
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+}
+.bgimg3-text {
+    width: 315px;
+    text-align: justify;
+    padding: 5px;
+}
+.nature {
+    top: 30px;
+    flex-direction: column;
+    display: none;
+}
+.contact .dash {
+    font-size: 0;
+}
+.contact {
+    height: 136vh;
+    padding-top: 0;
+}
+.absolut {
+    bottom: -65px;
+}
+footer p {
+    font-size: 18px;
+}
+.img-card {
+    height: 330px !important;
+    margin: 5px;
+    transform: translateY(-2px);
+}
+.section2{
+    top: -150px;
+    height: 156vh;
+}
+.section2 img{
+    width: 150px !important;
+    height: 237px !important;
+}
+.cards {
+    top: 0px;
+}
+.card-text{
+    font-size: 14px;
+}
+.hide{
+    display: none;
+}
+.bgimg3-text {
+    position: relative;
+    top: -230px;
+}
+}
