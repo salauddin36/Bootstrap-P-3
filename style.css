@@ -26,6 +26,7 @@ animation-iteration-count: infinite;
     width: 250px;
     position: relative;
     left: 50%;
+    top: 200px;
     transform: translateX(-125px);
 }
 .bgimg1 p:nth-child(2){
@@ -33,12 +34,16 @@ animation-iteration-count: infinite;
     width: 600px;
     margin: auto;
     text-align: center;
+    position: relative;
+    top: 200px;
 }
 .bgimg1 p:nth-child(3){
     font-size: 20px;
     width: 800px;
     margin: auto;
     text-align: center;
+    position: relative;
+    top: 200px;
 }
 .stick span{
     font-size: 100px;
@@ -243,6 +248,15 @@ footer p{
 
 @media screen and (min-width: 768px) and (max-width: 1400px)  {
 
+    .logo{
+        top: 100px;
+    }
+    .bgimg1 p:nth-child(2){
+        top: 100px;
+    }
+    .bgimg1 p:nth-child(3){
+        top: 100px;
+    }
     .bgimg3-text {
         width: 90%;
     }
@@ -272,6 +286,15 @@ footer p{
 
 
 @media screen and (max-width: 350px) {
+    .logo{
+        top: 50px;
+    }
+    .bgimg1 p:nth-child(2){
+        top: 50px;
+    }
+    .bgimg1 p:nth-child(3){
+        top: 50px;
+    }
 .bgimg1 p:nth-child(2) {
     font-size: 30px;
     width: 305px;
