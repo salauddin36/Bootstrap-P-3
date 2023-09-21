@@ -57,6 +57,9 @@ font-size: 30px;
 text-align: center;
 margin-top: 50px;
 }
+#text-justify{
+    text-align: justify;
+}
 /*  */
 .bgimg2{
     background-image: url(./img/m2.jpg);
@@ -196,6 +199,8 @@ height: 300px;
     font-size: 50px;
     color: aliceblue;
     text-align: center;
+    width: 300px;
+    margin: 5px auto;
     
 }
 .contact-text2{
